@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Password from "./Password";
+import Generator from "./Generator";
 import "./style.css";
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
                 <p>PASSWORD GENERATOR TOOL</p>
                 <h1>Generate a secure password</h1>
                 <p>Use our online password generator to instantly create a secure, random password.</p>
-                <Password />
+                <Generator />
                 <h2>Customize your password</h2>
             </div>
         )

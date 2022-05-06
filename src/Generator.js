@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class Password extends Component {
+class Generator extends Component {
 
     generate_password = () => {
         let password = ""
@@ -22,4 +22,4 @@ class Password extends Component {
     }
 }
 
-export default Password;
+export default Generator;
